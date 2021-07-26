@@ -3,4 +3,4 @@ project(Btmeteor C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Btmeteor main.c parse_metafile.h)
+add_executable(Btmeteor main.c parse_metafile.h parse_metafile.c bitfield.c bitfield.h)
